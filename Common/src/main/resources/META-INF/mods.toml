@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Sleep%20Sooner"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Sleep%20Sooner"
 logoFile="icon.png"
 
 [[mods]]
 modId="sleepsooner"
-version="4.3"
+version="4.4"
 displayName="Sleep Sooner"
-displayURL="https://curseforge.com/minecraft/mc-mods/sleep-sooner"
+displayURL="https://serilum.com/mod/sleep-sooner"
 authors="Rick South"
 description='''A minimalistic mod that adds a configurable functionality to be able to sleep a little sooner.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.sleepsooner]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.sleepsooner]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.2]"
     ordering="NONE"
