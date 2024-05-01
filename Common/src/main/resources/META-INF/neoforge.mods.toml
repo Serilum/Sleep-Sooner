@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Sleep%20Sooner"
+logoFile="icon.png"
+
+[[mods]]
+modId="sleepsooner"
+version="4.5"
+displayName="Sleep Sooner"
+displayURL="https://serilum.com/mod/sleep-sooner"
+authors="Rick South"
+description='''A minimalistic mod that adds a configurable functionality to be able to sleep a little sooner.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jack, Jeremy Langford, Michael W. S., pepe1191, Shana Gitnick, Tyler Behl   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.sleepsooner]]
+    modId="collective"
+    type="required"
+    versionRange="[7.54,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sleepsooner]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.6]"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "sleepsooner.mixins.json"
