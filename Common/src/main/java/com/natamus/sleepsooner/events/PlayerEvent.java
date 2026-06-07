@@ -37,7 +37,7 @@ public class PlayerEvent {
 		
 		if (sleeptime > 12540) {
 			if (daytime > 12540 && daytime < sleeptime) {
-				MessageFunctions.sendMessage(player, "It's too early to sleep.", ChatFormatting.DARK_GREEN);
+				MessageFunctions.sendTranslatableMessage(player, "collective.sleepsooner.message.tooearlysleep", ChatFormatting.DARK_GREEN);
 				
 				return false;
 			}
@@ -56,7 +56,7 @@ public class PlayerEvent {
 		if (ConfigHandler.enablePreSleepMessage) {
 			String unique = GlobalVariables.lingerMessages.get(GlobalVariables.random.nextInt(GlobalVariables.lingerMessages.size()));
 			
-			MessageFunctions.sendMessage(player, "You " + unique + " until dusk. You may now sleep.", ChatFormatting.DARK_GREEN);
+			MessageFunctions.sendTranslatableMessage(player, "collective.sleepsooner.message.untilduskmay", ChatFormatting.DARK_GREEN);
 		}
 		
 		return true;
