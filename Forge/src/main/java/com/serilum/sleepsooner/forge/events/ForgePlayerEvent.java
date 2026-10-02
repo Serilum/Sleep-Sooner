@@ -1,12 +1,12 @@
-package com.natamus.sleepsooner.neoforge.events;
+package com.serilum.sleepsooner.forge.events;
 
-import com.natamus.sleepsooner.events.PlayerEvent;
+import com.serilum.sleepsooner.events.PlayerEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-public class NeoForgePlayerEvent {
+public class ForgePlayerEvent {
 	@SubscribeEvent
 	public static void playerClick(PlayerInteractEvent.RightClickBlock e) {  
 		Player player = e.getEntity();

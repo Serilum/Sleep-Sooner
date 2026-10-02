@@ -1,10 +1,10 @@
-package com.natamus.sleepsooner;
+package com.serilum.sleepsooner;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.sleepsooner.forge.config.IntegrateForgeConfig;
-import com.natamus.sleepsooner.forge.events.ForgePlayerEvent;
-import com.natamus.sleepsooner.util.Reference;
+import com.serilum.sleepsooner.forge.config.IntegrateForgeConfig;
+import com.serilum.sleepsooner.forge.events.ForgePlayerEvent;
+import com.serilum.sleepsooner.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgePlayerEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgePlayerEvent.class);
 	}
 
 	private static void setGlobalConstants() {
