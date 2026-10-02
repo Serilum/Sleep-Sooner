@@ -1,6 +1,6 @@
-package com.natamus.sleepsooner.neoforge.events;
+package com.serilum.sleepsooner.neoforge.events;
 
-import com.natamus.sleepsooner.events.PlayerEvent;
+import com.serilum.sleepsooner.events.PlayerEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;

@@ -1,10 +1,10 @@
-package com.natamus.sleepsooner;
+package com.serilum.sleepsooner;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
-import com.natamus.sleepsooner.events.PlayerEvent;
-import com.natamus.sleepsooner.util.Reference;
+import com.serilum.sleepsooner.events.PlayerEvent;
+import com.serilum.sleepsooner.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
