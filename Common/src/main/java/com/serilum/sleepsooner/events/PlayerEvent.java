@@ -1,9 +1,9 @@
-package com.natamus.sleepsooner.events;
+package com.serilum.sleepsooner.events;
 
 import com.natamus.collective.data.GlobalVariables;
 import com.natamus.collective.functions.MessageFunctions;
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.sleepsooner.config.ConfigHandler;
+import com.serilum.sleepsooner.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;

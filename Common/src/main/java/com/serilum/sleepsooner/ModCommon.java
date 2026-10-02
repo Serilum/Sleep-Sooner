@@ -1,8 +1,8 @@
-package com.natamus.sleepsooner;
+package com.serilum.sleepsooner;
 
 import com.natamus.collective.config.GenerateJSONFiles;
-import com.natamus.sleepsooner.config.ConfigHandler;
-import com.natamus.sleepsooner.util.Reference;
+import com.serilum.sleepsooner.config.ConfigHandler;
+import com.serilum.sleepsooner.util.Reference;
 
 public class ModCommon {
 

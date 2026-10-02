@@ -1,7 +1,7 @@
-package com.natamus.sleepsooner.forge.config;
+package com.serilum.sleepsooner.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.sleepsooner.util.Reference;
+import com.serilum.sleepsooner.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

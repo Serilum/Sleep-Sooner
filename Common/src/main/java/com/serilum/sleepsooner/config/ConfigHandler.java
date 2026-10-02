@@ -1,7 +1,7 @@
-package com.natamus.sleepsooner.config;
+package com.serilum.sleepsooner.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.sleepsooner.util.Reference;
+import com.serilum.sleepsooner.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
