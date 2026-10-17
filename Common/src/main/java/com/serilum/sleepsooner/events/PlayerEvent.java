@@ -20,10 +20,6 @@ public class PlayerEvent {
 			return true;
 		}
 		
-		if (!ConfigHandler.enableSleepSooner) {
-			return true;
-		}
-
 		Block block = level.getBlockState(hitpos).getBlock();
 		if (!(block instanceof BedBlock)) {
 			return true;
